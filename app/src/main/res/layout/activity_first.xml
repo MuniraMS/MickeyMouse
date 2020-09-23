@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f1f1"
+    tools:context=".Activities.FirstActivity">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:autoStart="true"
+        android:flipInterval="5000" >
+
+
+        <ImageView
+            android:id="@+id/mickey1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/one"/>
+        <ImageView
+            android:id="@+id/mickey2"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/two"/>
+        <ImageView
+            android:id="@+id/mickey3"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/three"/>
+        <ImageView
+            android:id="@+id/mickey4"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/four"/>
+
+    </ViewFlipper>
+
+    <ImageButton
+        android:id="@+id/signup"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnsign"
+        />
+    <ImageButton
+        android:id="@+id/login"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnlog"
+        />
+
+
+</LinearLayout>

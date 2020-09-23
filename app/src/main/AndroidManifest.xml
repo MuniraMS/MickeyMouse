@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mickeymouse">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mickey Mouse Application"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".magazines.MagNov" />
+        <activity android:name=".magazines.MagOct" />
+        <activity android:name=".magazines.MagAug" />
+        <activity android:name=".magazines.MagJuly" />
+        <activity android:name=".magazines.MagJune" />
+        <activity android:name=".magazines.Magmay" />
+        <activity android:name=".magazines.MagApril" />
+        <activity android:name=".magazines.MagMarch" />
+        <activity android:name=".magazines.MagFeb" />
+        <activity android:name=".Activities.magazine" />
+        <activity android:name=".Activities.characters" />
+        <activity android:name=".Activities.mickeyworld" />
+        <activity android:name=".Activities.login" />
+        <activity android:name=".Activities.Signup" />
+        <activity android:name=".Activities.FirstActivity" />
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
